@@ -18,7 +18,7 @@ $installer->startSetup();
  */
 $installer->updateEntityType(Mage_Catalog_Model_Product::ENTITY, [
     'increment_model'      => 'eav/entity_increment_numeric',
-    'increment_pad_length' => 3,
+    'increment_pad_length' => 5,
     'increment_per_store'  => false]);
 $installer->resetProductEntityStoreConfig();
 
